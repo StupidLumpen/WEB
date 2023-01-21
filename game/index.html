@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="app">
+
+            <div class="app__result">
+                <span class="app__result-text">Ваш результат: 0</span>
+                <span class="app__result-time hide">Время игры: 0</span>
+            </div>
+
+            <div class="app__content">
+
+                <button class="app__start-button">Начать</button>
+
+                <div class="app__game hide"></div>
+
+            </div>
+
+            <div class="app__footer">
+                <label for="time">Время игры, (сек)</label>
+                <input type="number" id="time" min="0" max="5" value="5">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
